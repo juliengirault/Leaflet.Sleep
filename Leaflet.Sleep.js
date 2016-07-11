@@ -41,6 +41,7 @@ L.Map.Sleep = L.Handler.extend({
     this._stopWaiting();
     this._map.scrollWheelZoom.enable();
     this._map.dragging.enable();
+
     if (L.Browser.touch) {
       this._map.touchZoom.enable();
       this._map.tap.enable();
