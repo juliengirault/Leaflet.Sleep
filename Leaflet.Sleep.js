@@ -17,7 +17,6 @@ L.Map.mergeOptions({
 L.Map.Sleep = L.Handler.extend({
 
   addHooks: function () {
-    var self = this;
     this._enterTimeout = null;
     this._exitTimeout = null;
 
